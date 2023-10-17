@@ -19,13 +19,13 @@ return {
     -- onedark
     {
         "navarasu/onedark.nvim",
-        -- config = function()
-        --     require('onedark').setup {
-        --         style = 'cool'
-        --     }
-        --     --vim.cmd('colorscheme onedark')
-        -- end
-        keys = "<leader>pc"
+        config = function()
+            require('onedark').setup {
+                -- style = 'cool'
+            }
+            vim.cmd('colorscheme onedark')
+        end
+        -- keys = "<leader>pc"
     },
     -- vscode
     {
@@ -38,10 +38,11 @@ return {
     {
         'folke/tokyonight.nvim',
 
-        config = function()
-            vim.cmd("colorscheme tokyonight-night")
-            setTransparent()
-        end
+        -- config = function()
+        --     vim.cmd("colorscheme tokyonight-night")
+        --     -- setTransparent()
+        -- end
+        keys = "<leader>pc"
     },
     {
         'Mofiqul/dracula.nvim',

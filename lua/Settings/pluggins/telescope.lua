@@ -1,7 +1,6 @@
 return {
     {
         'nvim-telescope/telescope.nvim',
-        tag = '0.1.1',
         -- or                            , branch = '0.1.x',
         dependencies = { { 'nvim-lua/plenary.nvim' },
 
@@ -96,20 +95,20 @@ return {
             ) ]]
             -- open file_browser with the path of the current buffer
         end,
-        keys = {
-            '<leader>pf',
-            '<leader>pg',
-            '<leader>pb',
-            '<leader>ph',
-            '<leader>pc',
-            '<C-p>',
-            '<leader>lj',
-            '<leader>lc',
-            '<leader>lb',
-            '<leader>ld',
-            -- '<leader>pv',
-        }
-
+        -- keys = {
+        --     '<leader>pf',
+        --     '<leader>pg',
+        --     '<leader>pb',
+        --     '<leader>ph',
+        --     '<leader>pc',
+        --     '<C-p>',
+        --     '<leader>lj',
+        --     '<leader>lc',
+        --     '<leader>lb',
+        --     '<leader>ld',
+        --     -- '<leader>pv',
+        -- }
+        --
 
     },
     --[[ {
