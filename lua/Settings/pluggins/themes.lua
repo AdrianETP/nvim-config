@@ -22,7 +22,7 @@ return {
 				-- style = 'cool'
 			})
 			vim.cmd("colorscheme onedark")
-			setTransparent()
+			-- setTransparent()
 		end,
 		-- keys = "<leader>pc"
 	},
