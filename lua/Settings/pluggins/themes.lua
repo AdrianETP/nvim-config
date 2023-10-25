@@ -28,7 +28,6 @@ return {
     -- onedark
     {
         "navarasu/onedark.nvim",
-<<<<<<< Updated upstream
         -- config = function()
         --     require('onedark').setup {
         --
@@ -37,16 +36,6 @@ return {
         --     vim.cmd('colorscheme onedark')
         --     -- setTransparent()
         -- end
-=======
-        config = function()
-            require('onedark').setup {
-
-                -- style = 'cool'
-            }
-            vim.cmd('colorscheme onedark')
-            setTransparent()
-        end
->>>>>>> Stashed changes
         -- keys = "<leader>pc"
     },
     -- vscode
