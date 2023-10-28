@@ -4,7 +4,15 @@ function setTransparent()
 end
 
 return {
+    {
+        "catppuccin/nvim",
+        name = "catppuccin",
+        priority = 1000,
+        config = function()
+            vim.cmd('colorscheme catppuccin-macchiato')
+        end
 
+    },
     {
         "projekt0n/github-nvim-theme",
         tag = "v0.0.7",
@@ -65,9 +73,6 @@ return {
     -- nord
     {
         'shaunsingh/nord.nvim',
-        config = function()
-            vim.cmd('colorscheme nord')
-        end,
         -- keys = "<leader>pc",
     },
     {
